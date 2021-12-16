@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Tasks.v1" Version="1.55.0.2384" />
+    <PackageReference Include="TaskScheduler" Version="2.9.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CBTwelveInterface">
+      <HintPath>..\CBTwelveInterface\bin\Debug\netcoreapp3.1\CBTwelveInterface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
